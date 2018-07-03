@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>
+    <meta id="jsviewport" name="viewport" content="width=device-width" />
+
+
+
+
+<meta name="author" content="The Zen Cart&trade; Team and others" />
+<meta name="generator" content="shopping cart program by Zen Cart&trade;, http://www.zen-cart.com eCommerce" />
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<meta name="msapplication-TileColor" content="#1a1919">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="format-detection" content="telephone=no">
+
+<base href="http://www.adafruit.com/" />
+
+<title>Adafruit Industries, Unique &amp; fun DIY electronics and kits</title><link rel="alternate" type="application/rss+xml" title="adafruit industries blog  RSS Feed" href="http://www.adafruit.com/blog/feed/" /> <meta name="description" content="Adafruit Industries, Unique &amp; fun DIY electronics and kits :  - Tools Gift Certificates Arduino Cables Sensors LEDs Books Power EL Wire/Tape/Panel Components & Parts LCDs & Displays Wearables BeagleBone Prototyping Raspberry Pi Wireless Young Engineers 3D printing NeoPixels Boards Kits & Projects Robotics & CNC Accessories Software ecommerce, open source, shop, online shopping" />
+<meta name="keywords" content="Tools Gift Certificates Arduino Cables Sensors LEDs Books Power EL Wire/Tape/Panel Components & Parts LCDs & Displays Wearables BeagleBone Prototyping Raspberry Pi Wireless Young Engineers 3D printing NeoPixels Boards Kits & Projects Robotics & CNC Accessories Software ecommerce, open source, shop, online shopping " />
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-7723544-1");
+	pageTracker._trackPageview();
+	} catch(err) {}</script>
+
+
+<!-- BEGIN: Google Trusted Store -->
+<script type="text/javascript">
+      var gts = gts || [];
+    gts.push(["id", "27251"]);
+        gts.push(["google_base_subaccount_id", "5543303"]);
+    gts.push(["google_base_country", "US"]);
+    gts.push(["google_base_language", ""]);
+    (function() {
+      var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
+      var gts = document.createElement("script");
+      gts.type = "text/javascript";
+      gts.async = true;
+      gts.src = scheme + "www.googlecommerce.com/trustedstores/gtmp_compiled.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(gts, s);
+    })();
+    </script>
+	<!-- END: Google Trusted Store -->
+	
+
+
+
+<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/6029052/784822/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="/includes/templates/adafruit2013/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/includes/templates/adafruit2013/css/font-awesome.min.css">
+
+
+<!--[if lt IE 9]><script src="/includes/templates/adafruit2013/jscript/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("a > button").on('click', function() { 
+    location.href = $(this).closest("a").attr("href");
+});
+});
+</script>
+<![endif]-->
+<!--[if IE 9]><!--><script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!--<![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script src="/includes/templates/adafruit2013/jscript/bootstrap.min.js"></script>
+<script src="/includes/templates/adafruit2013/jscript/modernizr.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/adafruit.hoverMenu.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/adafruit.mobileMenu.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/hogan.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/typeahead.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/adafruit.search.js" type="text/javascript"></script>
+<script src="/includes/templates/adafruit2013/jscript/jquery.fitvids.js" type="text/javascript"></script>
+
+<script src="/includes/javascript/jquery.cookie.js" type="text/javascript"></script>
+<script src="/includes/javascript/jquery.wildcart.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="http://www.adafruit.com/includes/templates/adafruit2013/css/style.css?1404904330" />
+
+
+
+<!--[if lt IE 9]>
+<script src="/includes/templates/adafruit2013/jscript/respond.min.js"></script>
+<script src="/includes/templates/adafruit2013/jscript/html5shiv.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("a > button").on('click', function() { 
+    location.href = $(this).closest("a").attr("href");
+});
+});
+</script>
+<![endif]-->
+
+
+<script type="text/javascript">
+	function hideMessage() {
+		$('.messaging-container').hide();
+		document.cookie = "seen_msg_=1; path=/;domain=adafruit.com;";
+	}
+
+	$(document).ready(function(){
+		// Turn on all the carousels!
+		if($('.carousel').length > 0) $('.carousel').carousel();
+
+		$('#navigation nav > ul > li').hover_menu();
+		$('#small-header-content').mobile_menu();
+		$('#search').adafruit_search();
+		
+		function videoautoheight(){
+			$("iframe.youtube").each(function() {
+				var orig = $(this);
+				var container = orig.parents().find("div:last");
+				container.fitVids();
+			});
+		}
+
+		videoautoheight();
+
+		$('#header-cart').shoppingCartTag({
+		  cartUpdated : function(cart_data){
+			cartCount = 0;
+			this.html(cart_data['cart_totals']['items'] + ' Items <i class="fa fa-shopping-cart"></i>');
+		  }
+		});
+		$('.small-cart-count').shoppingCartTag({
+		  cartUpdated : function(cart_data){
+			cartCount = 0;
+			this.html(cart_data['cart_totals']['items'] );
+		  }
+		});
+	});
+</script>
+</head>
+
+<body class="no-js">
+ <div id="outer-wrapper">
+    <div id="inner-wrapper">
+	<header id="adafruit-header" class="clearfix">
+	<div id="small-header-content" class="container visible-xs">
+		<a id="small-header-menu-button" href="#">
+			<i class="fa fa-bars"></i>
+		</a>
+		<div class="small-header-logo">
+			<a href="">
+
+									<img alt="Adafruit Logo" height="50" width="50" id="logo_small" src="includes/templates/adafruit2013/images/adafruit_logo_small.png" title="Adafruit"/>
+				
+			</a>   
+		</div>
+		<a class="small-header-cart" href="shopping_cart">
+			<span class="small-cart-count">0</span>
+			<i class="fa fa-shopping-cart"></i>
+		</a>  
+	</div>
+	<nav id="small-header-nav" role="navigation" class="visible-xs">
+		<div class="block">
+			<ul>
+				<li>
+					<div id="small-search-wrapper">
+						<div id="small-search-inner-wrapper">
+							<form action="https://www.adafruit.com/search" method="get">
+							<label for="search" style="display:none;">Search</label>
+							<input class="search" type="text" name="q" placeholder="SEARCH ADAFRUIT" />
+							<button class="search-button-mobile" type="submit"><i class="fa fa-search"></i></button>
+							</form>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="categories">SHOP</a>
+				</li>
+				<li>
+					<a href="blog">BLOG</a>
+				</li>
+				<li>
+					<a href="https://learn.adafruit.com">LEARN</a>
+				</li>
+				<li>
+					<a href="support">SUPPORT</a>
+				</li>
+
+									<li>
+						<a href="https://accounts.adafruit.com">SIGN IN</a>
+					</li>
+				
+				<li>
+					<a class="close-btn" id="small-nav-close-button" href="#top">CLOSE MENU</a>
+				</li>
+			</ul>
+
+		</div>
+	</nav>
+	<div id="header-content" class="container hidden-xs">
+		<div id="header-profile">
+			<a href="shopping_cart" id="header-cart">
+				0 Items <i class="fa fa-shopping-cart"></i>
+			</a>
+							<div id="account">
+					<a href="index.php?main_page=login">Sign In</a>
+				</div>
+				
+			<div id="search-wrapper">
+				<form action="search" method="get">
+					<label for="search" style="display:none;">Search</label>
+					<input id="search" type="text" name="q" />
+					<i class="fa fa-search"></i>
+					<input type="submit" style="visibility: hidden; position: fixed;">
+				</form>
+			</div>
+		</div>
+		<div id="navigation">
+			<a href="">
+
+									<img alt="Adafruit Logo" height="60" width="172" id="logo" src="includes/templates/adafruit2013//images/logo_2x.png" title="Adafruit"/>
+				
+			</a>
+			<nav class="hover-menu">
+				<ul>
+					<li id="nav-shop">
+						<a href="categories">SHOP</a>
+                        <div class="flyouts">
+    <div class="flyout">
+      <div class="container">
+        <div class="flyout-content row"><div class="column col-lg-6 col-md-6 col-sm-6">
+            <div class="title categories">
+                PRODUCT CATEGORIES <br class="hidden-lg" /><a href="http://www.adafruit.com/categories">(SEE ALL 24)</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories"><li><a href="http://www.adafruit.com/category/17">ARDUINO (114)</a></li>
+<li><a href="http://www.adafruit.com/category/105">RASPBERRY PI (159)</a></li>
+<li><a href="http://www.adafruit.com/category/75">BEAGLEBONE (22)</a></li>
+<li><a href="http://www.adafruit.com/category/168">NEOPIXELS (28)</a></li>
+<li><a href="http://www.adafruit.com/category/65">WEARABLES (84)</a></li>
+<li><a href="http://www.adafruit.com/category/117">YOUNG ENGINEERS (70)</a></li>
+<li><a href="http://www.adafruit.com/category/82">PROTOTYPING (110)</a></li>
+<li><a href="http://www.adafruit.com/category/203">KITS & PROJECTS (121)</a></li>
+<li><a href="http://www.adafruit.com/category/196">BOARDS (132)</a></li>
+<li><a href="http://www.adafruit.com/category/63">LCDS & DISPLAYS (77)</a></li>
+<li><a href="http://www.adafruit.com/category/37">LEDS (162)</a></li>
+<li><a href="http://www.adafruit.com/category/44">POWER (122)</a></li>
+</ul>              
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                          <ul class="links"><li><a href="http://www.adafruit.com/category/33">CABLES (98)</a></li>
+<li><a href="http://www.adafruit.com/category/8">TOOLS (94)</a></li>
+<li><a href="http://www.adafruit.com/category/227">ROBOTICS & CNC (115)</a></li>
+<li><a href="http://www.adafruit.com/category/234">ACCESSORIES (110)</a></li>
+<li><a href="http://www.adafruit.com/category/54">COMPONENTS & PARTS (218)</a></li>
+<li><a href="http://www.adafruit.com/category/35">SENSORS (139)</a></li>
+<li><a href="http://www.adafruit.com/category/50">EL WIRE/TAPE/PANEL (82)</a></li>
+<li><a href="http://www.adafruit.com/category/128">3D PRINTING (11)</a></li>
+<li><a href="http://www.adafruit.com/category/40">BOOKS (66)</a></li>
+<li><a href="http://www.adafruit.com/category/254">SOFTWARE (1)</a></li>
+<li><a href="http://www.adafruit.com/category/112">WIRELESS (59)</a></li>
+<li><a href="http://www.adafruit.com/category/14">GIFT CERTIFICATES (4)</a></li>
+
+                 </ul> 
+              </div>
+            </div>
+        </div><div class="column col-lg-3 col-md-3 col-sm-6 new-column">
+            <div class="title new">
+              NEW PRODUCTS <a href="http://www.adafruit.com/new"><br class="hidden-lg" />(SEE ALL 168)</a>
+            </div>
+            <ul class="links new"><li>
+                    <a href="http://www.adafruit.com/product/1958"><img src="https://www.adafruit.com/images/230x173/1958-03.jpg" alt="Adafruit Stereo FM Transmitter with RDS/RDBS Breakout - Si4713"/></a>
+                    <a href="http://www.adafruit.com/product/1958" class="name">Adafruit Stereo FM Transmitter with RDS/RDBS Breakout - Si4713<span class="price">$19.95</span></a>
+                    <div class="clear"></div>
+                      </li><li>
+                    <a href="http://www.adafruit.com/product/1970"><img src="https://www.adafruit.com/images/230x173/1970-00.jpg" alt="Silicone Cover Stranded-Core Wire - 26AWG in Various Colors"/></a>
+                    <a href="http://www.adafruit.com/product/1970" class="name">Silicone Cover Stranded-Core Wire - 26AWG in Various Colors<span class="price">$0.95</span></a>
+                    <div class="clear"></div>
+                      </li><li>
+                    <a href="http://www.adafruit.com/product/1965"><img src="https://www.adafruit.com/images/230x173/1965-01.jpg" alt="Chirp! The Plant Watering Alarm"/></a>
+                    <a href="http://www.adafruit.com/product/1965" class="name">Chirp! The Plant Watering Alarm<span class="price">$15.00</span></a>
+                    <div class="clear"></div>
+                      </li><li>
+                    <a href="http://www.adafruit.com/product/1930"><img src="https://www.adafruit.com/images/230x173/1930-01.jpg" alt="Solder Wire - SAC305 RoHS Lead Free - 0.5mm/.02" diameter - 50g"/></a>
+                    <a href="http://www.adafruit.com/product/1930" class="name">Solder Wire - SAC305 RoHS Lead Free - 0.5mm/.02" diameter - 50g<span class="price">$7.50</span></a>
+                    <div class="clear"></div>
+                      </li><li>
+                    <a href="http://www.adafruit.com/product/1964"><img src="https://www.adafruit.com/images/230x173/1964-00.jpg" alt="Swift - Skill badge, iron-on patch"/></a>
+                    <a href="http://www.adafruit.com/product/1964" class="name">Swift - Skill badge, iron-on patch<span class="price">$2.95</span></a>
+                    <div class="clear"></div>
+                      </li></ul>
+       </div><div class="column col-lg-3 col-md-3 hidden-sm">
+            <div class="title featured">
+                FEATURED PRODUCTS <a href="http://www.adafruit.com/featured"><br class="hidden-lg" />(SEE ALL 23)</a>
+            </div>
+            <ul class="links featured"><li>
+                    <a href="http://www.adafruit.com/product/1876"><img src="https://www.adafruit.com/images/230x173/1876-01.jpg" alt="BeagleBone Black Rev C - 4GB Flash - Pre-installed Debian"/></a>
+                    <a href="http://www.adafruit.com/product/1876" class="name">BeagleBone Black Rev C - 4GB Flash - Pre-installed Debian<span class="price">$55.00</span></a>
+                    <div class="clear"></div>
+                </li><li>
+                    <a href="http://www.adafruit.com/product/815"><img src="https://www.adafruit.com/images/230x173/815-00.jpg" alt="Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface"/></a>
+                    <a href="http://www.adafruit.com/product/815" class="name">Adafruit 16-Channel 12-bit PWM/Servo Driver - I2C interface<span class="price">$14.95</span></a>
+                    <div class="clear"></div>
+                </li><li>
+                    <a href="http://www.adafruit.com/product/1141"><img src="https://www.adafruit.com/images/230x173/1141-00.jpg" alt="Adafruit Assembled Data Logging shield for Arduino"/></a>
+                    <a href="http://www.adafruit.com/product/1141" class="name">Adafruit Assembled Data Logging shield for Arduino<span class="price">$19.95</span></a>
+                    <div class="clear"></div>
+                </li><li>
+                    <a href="http://www.adafruit.com/product/1410"><img src="https://www.adafruit.com/images/230x173/1410-00.jpg" alt="Onion Pi Pack with mini Wi-Fi - Make a Raspberry Pi Tor Proxy"/></a>
+                    <a href="http://www.adafruit.com/product/1410" class="name">Onion Pi Pack with mini Wi-Fi - Make a Raspberry Pi Tor Proxy<span class="price">$89.95</span></a>
+                    <div class="clear"></div>
+                </li><li>
+                    <a href="http://www.adafruit.com/product/1411"><img src="https://www.adafruit.com/images/230x173/1411-00.jpg" alt="Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface"/></a>
+                    <a href="http://www.adafruit.com/product/1411" class="name">Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface<span class="price">$17.50</span></a>
+                    <div class="clear"></div>
+                </li> </ul>
+</div></div>
+    </div>
+  </div>
+</div>					</li>
+					<li id="nav-blog">
+						<a href="blog">BLOG</a>
+						  <div class="flyouts">
+    <div class="flyout">
+      <div class="container">
+        <div class="flyout-content row">
+
+          <div class="column col-lg-6 col-md-6 col-sm-6">
+            <div class="title categories">
+              POPULAR CATEGORIES <br class="hidden-lg"><a href="//www.adafruit.com/blog/">(SEE ALL 150)</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+																	<li><a href="//www.adafruit.com/blog/category/random/">RANDOM (2575)</a>
+																	<li><a href="//www.adafruit.com/blog/category/art/">ART (2384)</a>
+																	<li><a href="//www.adafruit.com/blog/category/3d-printing/">3D PRINTING (1927)</a>
+																	<li><a href="//www.adafruit.com/blog/category/raspberry-pi/">RASPBERRY PI (1785)</a>
+																	<li><a href="//www.adafruit.com/blog/category/arduino/">ARDUINO (1728)</a>
+																	<li><a href="//www.adafruit.com/blog/category/wearables/">WEARABLES (1451)</a>
+																	<li><a href="//www.adafruit.com/blog/category/ee/">EE (1026)</a>
+																	<li><a href="//www.adafruit.com/blog/category/robotics/">ROBOTICS (972)</a>
+																	<li><a href="//www.adafruit.com/blog/category/ledslcds/">LEDS-LCDS (912)</a>
+																	<li><a href="//www.adafruit.com/blog/category/announce/">ANNOUNCE (886)</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+																																																																													<li><a href="//www.adafruit.com/blog/category/maker-business/">MAKER BUSINESS (882)</a>
+																	<li><a href="//www.adafruit.com/blog/category/ask-an-engineer/">ASK-AN-ENGINEER (800)</a>
+																	<li><a href="//www.adafruit.com/blog/category/opensourcehardware/">OPEN SOURCE HARDWARE (727)</a>
+																	<li><a href="//www.adafruit.com/blog/category/science/">SCIENCE (680)</a>
+																	<li><a href="//www.adafruit.com/blog/category/educators/">EDUCATORS (667)</a>
+																	<li><a href="//www.adafruit.com/blog/category/costuming/">COSTUMING (442)</a>
+																	<li><a href="//www.adafruit.com/blog/category/events/">EVENTS (395)</a>
+																	<li><a href="//www.adafruit.com/blog/category/projects/">PROJECTS (370)</a>
+																	<li><a href="//www.adafruit.com/blog/category/adafruit-learning-system/">ADAFRUIT LEARNING SYSTEM (369)</a>
+																	<li><a href="//www.adafruit.com/blog/category/cosplay/">COSPLAY (366)</a>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	                </ul>
+              </div>
+            </div>
+          </div> 
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+			            <div class="title new">
+              NEW POSTS <br class="hidden-lg"><a href="//www.adafruit.com/blog/">(SEE ALL)</a>
+            </div>
+            <ul class="links new">
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/07/09/bootloading-flora-and-gemma-wearablewednesday/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/07/bootloading-flora-and-gemma-wear-300x168.jpg'></a>						<span class="blog-flyout-datetime">July 9, 2014 at 6:00 am</span>
+						<a href="https://www.adafruit.com/blog/2014/07/09/bootloading-flora-and-gemma-wearablewednesday/" class="name">Bootloading FLORA and GEMMA #WearableWednesday</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/07/09/trafo-pop-combines-wearables-and-light-painting-wearablewednesday/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/07/trafo-pop-combines-wearables-and-300x168.jpg'></a>						<span class="blog-flyout-datetime">July 9, 2014 at 5:00 am</span>
+						<a href="https://www.adafruit.com/blog/2014/07/09/trafo-pop-combines-wearables-and-light-painting-wearablewednesday/" class="name">Trafo Pop Combines Wearables and Light Painting&hellip;</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/07/09/supernumerary-robotic-limbs-robotic-arms-that-will-lend-a-helping-hand-wearablewednesday/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/07/NewImage39-300x239.png'></a>						<span class="blog-flyout-datetime">July 9, 2014 at 4:00 am</span>
+						<a href="https://www.adafruit.com/blog/2014/07/09/supernumerary-robotic-limbs-robotic-arms-that-will-lend-a-helping-hand-wearablewednesday/" class="name">Supernumerary Robotic Limbs: robotic arms that&hellip;</a>
+						<div class="clear"></div>
+					</li>
+				            </ul>
+          </div>
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+			            <div class="title featured">
+              FEATURED POSTS <br class="hidden-lg"><a href="//www.adafruit.com/blog/category/featured">(SEE ALL 16)</a>
+            </div>
+            <ul class="links featured">
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/06/06/collins-lab-rfid-video/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/06/collins-lab-rfid-video-300x168.jpg'></a>						<span class="blog-flyout-datetime">June 6, 2014 at 6:03 pm</span>
+						<a href="https://www.adafruit.com/blog/2014/06/06/collins-lab-rfid-video/" class="name">Collin&#8217;s Lab: RFID (video)</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/06/06/tutorial-0-54-alphanumeric-adafruit-led-backpacks/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/06/led_matrix_1912-03-300x224.jpg'></a>						<span class="blog-flyout-datetime">June 6, 2014 at 3:40 pm</span>
+						<a href="https://www.adafruit.com/blog/2014/06/06/tutorial-0-54-alphanumeric-adafruit-led-backpacks/" class="name">Tutorial: 0.54&#8243; Alphanumeric Adafruit LED&hellip;</a>
+						<div class="clear"></div>
+					</li>
+									<li>
+						<a href='https://www.adafruit.com/blog/2014/06/05/3d-printed-camera-tripod-adatper-for-telescope/'><img src='//www.adafruit.com/blog/wp-content/uploads/2014/06/firstscope-banner-300x88.jpg'></a>						<span class="blog-flyout-datetime">June 5, 2014 at 9:00 am</span>
+						<a href="https://www.adafruit.com/blog/2014/06/05/3d-printed-camera-tripod-adatper-for-telescope/" class="name">3D Printed Camera Tripod Adatper for Telescope</a>
+						<div class="clear"></div>
+					</li>
+				            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+					</li>
+					<li id="nav-learn">
+						<a href="https://learn.adafruit.com">LEARN</a>
+						  <div class="flyouts">
+    <div class="flyout">
+      <div class="container">
+        <div class="flyout-content row">
+
+          <div class="column col-lg-6 col-md-6 col-sm-6">
+            <div class="title categories">
+              GUIDE CATEGORIES <br class="hidden-lg"><a href="https://learn.adafruit.com/">(SEE ALL 528)</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+                    <li><a href="https://learn.adafruit.com/category/components">COMPONENTS (14)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/sensors">SENSORS (64)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/hacks">HACKS (9)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/microcomputers">MICROCOMPUTERS (3)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/adafruit-products">ADAFRUIT PRODUCTS (133)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/maker-business">MAKER BUSINESS (16)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/projects">PROJECTS (44)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/leds">LEDS (53)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/raspberry-pi">RASPBERRY PI (78)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/braincrafts">BRAINCRAFTS (25)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/lcds-and-displays">LCDS &amp; DISPLAYS (29)</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <ul class="links categories">
+                    <li><a href="https://learn.adafruit.com/category/el">EL WIRE/TAPE/PANEL (8)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/tools">TOOLS (14)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/microcontrollers">MICROCONTROLLERS (28)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/learn-arduino">LEARN ARDUINO (26)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/customer-projects">CUSTOMER PROJECTS (6)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/beaglebone">BEAGLEBONE (23)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/circuit-playground">CIRCUIT PLAYGROUND (4)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/3d-printing">3D PRINTING (46)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/trinket">TRINKET (29)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/robotics">ROBOTICS (5)</a></li>
+                    <li><a href="https://learn.adafruit.com/category/collins-lab">COLLIN&#x27;S LAB (5)</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+            <div class="title new">
+              NEW GUIDES <br class="hidden-lg"><a href="https://learn.adafruit.com/guides/latest">(SEE ALL 525)</a>
+            </div>
+            <ul class="links new">
+                    <li>
+                      <a href="https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi"><img src="https://learn.adafruit.com/system/guides/images/000/000/439/small160/1601_MED.jpg?1396716938" alt="Adafruit PiTFT - 2.8&quot; Touchscreen Display for Raspberry Pi" /></a>
+                      <a href="https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi" class="name">ADAFRUIT PITFT - 2.8&quot; TOUCHSCREEN DISPLAY FOR RASPBERRY PI</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/flora-and-gemma-isp"><img src="https://learn.adafruit.com/system/guides/images/000/000/641/small160/bootloadingfloragemma-gif.gif?1404860012" alt="FLORA and GEMMA ICSP" /></a>
+                      <a href="https://learn.adafruit.com/flora-and-gemma-isp" class="name">FLORA AND GEMMA ICSP</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/fona-tethering-to-raspberry-pi-or-beaglebone-black"><img src="https://learn.adafruit.com/system/guides/images/000/000/647/small160/fona_gprs.jpg?1404800542" alt="FONA Tethering to Raspberry Pi or BeagleBone Black" /></a>
+                      <a href="https://learn.adafruit.com/fona-tethering-to-raspberry-pi-or-beaglebone-black" class="name">FONA TETHERING TO RASPBERRY PI OR BEAGLEBONE BLACK</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/3d-printed-camera-slider"><img src="https://learn.adafruit.com/system/guides/images/000/000/645/small160/hero-on-rocks.jpg?1404695875" alt="3D Printed Camera Slider" /></a>
+                      <a href="https://learn.adafruit.com/3d-printed-camera-slider" class="name">3D PRINTED CAMERA SLIDER</a>
+                      <div class="clear"></div>
+                    </li>
+            </ul>
+          </div>
+          <div class="column col-lg-3 col-md-3 col-sm-3">
+            <div class="title featured">
+              FEATURED GUIDES <br class="hidden-lg"><a href="https://learn.adafruit.com/guides/featured">(SEE ALL 95)</a>
+            </div>
+            <ul class="links featured">
+                    <li>
+                      <a href="https://learn.adafruit.com/introducing-gemma"><img src="https://learn.adafruit.com/system/guides/images/000/000/367/small160/1222iso_LRG.jpg?1396718358" alt="Introducing Gemma" /></a>
+                      <a href="https://learn.adafruit.com/introducing-gemma" class="name">INTRODUCING GEMMA</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/trinket-slash-gemma-space-invader-pendant"><img src="https://learn.adafruit.com/system/guides/images/000/000/381/small160/pendant-anim-small.gif?1396718225" alt="Trinket / Gemma Space Invader Pendant" /></a>
+                      <a href="https://learn.adafruit.com/trinket-slash-gemma-space-invader-pendant" class="name">TRINKET / GEMMA SPACE INVADER PENDANT</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/introducing-bluefruit-ez-link"><img src="https://learn.adafruit.com/system/guides/images/000/000/431/small160/pinout.jpg?1396716990" alt="Introducing Bluefruit EZ-Link" /></a>
+                      <a href="https://learn.adafruit.com/introducing-bluefruit-ez-link" class="name">INTRODUCING BLUEFRUIT EZ-LINK</a>
+                      <div class="clear"></div>
+                    </li>
+                    <li>
+                      <a href="https://learn.adafruit.com/adafruit-led-sequins"><img src="https://learn.adafruit.com/system/guides/images/000/000/549/small160/leds_adafruit-led-sequins-hat-12.jpg?1396714926" alt="Adafruit LED Sequins" /></a>
+                      <a href="https://learn.adafruit.com/adafruit-led-sequins" class="name">ADAFRUIT LED SEQUINS</a>
+                      <div class="clear"></div>
+                    </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+					</li>
+					<li id="nav-support">
+						<a href="https://forums.adafruit.com">FORUMS</a>
+					</li>
+				</ul>
+			</nav>            
+		</div>
+	</div>	
+</header>
+    	<div class="main-container container"><div id="myCarousel" class="carousel slide hidden-xs clearfix" style="clear: both; display: block;">
+				<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+								<li data-target="#myCarousel" data-slide-to="4"></li>
+					</ol>
+		<!-- Carousel items -->
+	<div class="carousel-inner">
+					<div class="active item">
+				<a target="_blank" href="https://www.youtube.com/watch?v=p1KYXbaWlpg"><img src="/images/hero/20140418-171112-49.jpg"/></a>			</div>
+					<div class="item">
+				<a target="_blank" href="http://www.youtube.com/watch?v=bZBIljQU3Cc"><img src="/images/hero/20140421-181009-63.jpg"/></a>			</div>
+					<div class="item">
+				<a href="//learn.adafruit.com/neopixel-tiara/overview"><img src="/images/hero/20140627-083221-16.jpg"/></a>			</div>
+					<div class="item">
+				<a href="//www.adafruit.com/category/65"><img src="/images/hero/20140408-092905-48.jpg"/></a>			</div>
+					<div class="item">
+				<a target="_blank" href="/gemma"><img src="/images/hero/20140502-135224-15.jpg"/></a>			</div>
+			</div>
+</div>
+<div id="blog-ticker">
+	<div id="ticker-label">LATEST&nbsp;NEWS:</div>
+	<a id="ticker-link" href=""></a>
+</div>
+<script type="text/javascript" src="/includes/templates/adafruit2013/jscript/ticker.js"></script>
+<div class="row">
+	<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="featured-left">
+					<div class="home-featured-prod">
+				<a href="/products/170" title="Adafruit ARDX - v1.3 Experimentation Kit for Arduino (Uno R3)">
+                    <div class="ribbon"><div class="ribbon-text">Featured</div></div>
+					<div class="featured-img-container">
+						<img src="/images/480x360/170-01.jpg" alt="Adafruit ARDX - v1.3 Experimentation Kit for Arduino (Uno R3)"/>
+					</div>
+					<div class="featured-title">
+						<div class="title mobile-text-wrapper">Adafruit ARDX - v1.3 Experimentation Kit for Arduino (Uno R3)</div>
+						<div class="description mobile-text-wrapper">The ultimate experiments for the Arduino beginner!</div>
+					</div>
+				</a>
+			</div>
+					<div class="home-featured-prod">
+				<a href="/products/955" title="Raspberry Pi starter pack (Does not include Raspberry Pi)">
+                    <div class="ribbon"><div class="ribbon-text">Featured</div></div>
+					<div class="featured-img-container">
+						<img src="/images/480x360/955-00.jpg" alt="Raspberry Pi starter pack (Does not include Raspberry Pi)"/>
+					</div>
+					<div class="featured-title">
+						<div class="title mobile-text-wrapper">Raspberry Pi starter pack (Does not include Raspberry Pi)</div>
+						<div class="description mobile-text-wrapper">Everything you need to start hacking the Pi fast!</div>
+					</div>
+				</a>
+			</div>
+			</div>
+	<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+					<div class="home-new-prod">
+				<a href="/products/1854" title="Small 1.2" 8x8 Ultra Bright Square Amber LED Matrix + Backpack">
+                    <div class="ribbon"><div class="ribbon-text">New</div></div>
+					<div class="new-img-container">
+						<img src="/images/480x360/1854-05.jpg" alt="Small 1.2" 8x8 Ultra Bright Square Amber LED Matrix + Backpack"/>
+					</div>
+					<div class="new-title">
+						<div class="title mobile-text-wrapper">Small 1.2" 8x8 Ultra Bright Square Amber LED Matrix + Backpack</div>
+
+					</div>
+				</a>
+			</div>
+					<div class="home-new-prod">
+				<a href="/products/1819" title="1.2" 8x8 Matrix Square Pixel - Yellow">
+                    <div class="ribbon"><div class="ribbon-text">New</div></div>
+					<div class="new-img-container">
+						<img src="/images/480x360/1819-05.jpg" alt="1.2" 8x8 Matrix Square Pixel - Yellow"/>
+					</div>
+					<div class="new-title">
+						<div class="title mobile-text-wrapper">1.2" 8x8 Matrix Square Pixel - Yellow</div>
+
+					</div>
+				</a>
+			</div>
+					<div class="home-new-prod">
+				<a href="/products/1932" title="40-pin TFT Friend - FPC Breakout with LED Backlight Driver">
+                    <div class="ribbon"><div class="ribbon-text">New</div></div>
+					<div class="new-img-container">
+						<img src="/images/480x360/1932-01.jpg" alt="40-pin TFT Friend - FPC Breakout with LED Backlight Driver"/>
+					</div>
+					<div class="new-title">
+						<div class="title mobile-text-wrapper">40-pin TFT Friend - FPC Breakout with LED Backlight Driver</div>
+
+					</div>
+				</a>
+			</div>
+			</div>
+	<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="home-new-guide">
+						<a href="http://youtu.be/EPTp6WSrC6c">
+							<div class="ribbon"><div class="ribbon-text">3D PRINT</div></div>
+							<div class="guide-img-container">
+								<img src="/images/home-ads/20140703-120352-61.jpg" alt="Raspberry Pi GameGRRL"/>
+							</div>
+															<div class="guide-title">
+									<div class="title mobile-text-wrapper">
+										Raspberry Pi GameGRRL									</div>
+								</div>
+													</a>
+					</div>
+											<div class="home-new-guide">
+						<a href="https://learn.adafruit.com/ktowns-ultimate-creating-parts-in-eagle-tutorial" title="KTOWN's Ultimate Creating Parts in Eagle Tutorial">
+							<div class="ribbon-learn"><div class="ribbon-text">Guide</div></div>
+							<div class="guide-img-container">
+								<img src="http://learn.adafruit.com/system/guides/images/000/000/263/medium500/mainicon.png?1396719597" alt="KTOWN's Ultimate Creating Parts in Eagle Tutorial"/>
+							</div>
+							<div class="guide-title">
+								<div class="title mobile-text-wrapper">
+									KTOWN's Ultimate Creating Parts in Eagle Tutorial								</div>
+							</div>
+						</a>
+					</div>
+											<div class="home-new-guide">
+						<a href="http://youtu.be/MSJVB_ouGmk">
+							<div class="ribbon"><div class="ribbon-text">VIDEO</div></div>
+							<div class="guide-img-container">
+								<img src="/images/home-ads/20140620-130700-57.jpg" alt="#madewithcode with Ladyada"/>
+							</div>
+															<div class="guide-title">
+									<div class="title mobile-text-wrapper">
+										#madewithcode with Ladyada									</div>
+								</div>
+													</a>
+					</div>
+							</div>
+</div>
+	
+</div> 	<div id="footer">
+	<div class="container">
+        <div class="row">
+            <div class=" col-lg-6 col-md-6 col-sm-4 col-xs-12">
+              <ul id="footer-left">
+                 <li><a href="/contact_us">Contact</a></li>
+                 <li><a href="/support">Support</a></li>
+                 <li><a href="/distributors">Distributors</a></li>
+                 <li><a href="/educators">Educators</a></li>
+                 <li><a href="/jobs">Jobs</a></li>
+                 <li><a href="/faq">FAQ</a></li>
+                 <li><a href="/shippinginfo">Shipping &amp; Returns</a></li>
+                 <li><a href="/terms_of_service">Terms of Service</a></li>
+                 <li><a href="/privacy">Privacy Notice</a></li>
+                 <li><a href="/about">About Us</a></li>
+              </ul>
+              <div id="footer-copyright">
+                 <a href="http://nytm.org/made-in-nyc/">Engineered in NYC</a> <span>Adafruit&nbsp;&reg;</span>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 hidden-xs">
+               <div id="footer-quote">
+                <span class="quotes-large">"If A equals success, then the formula is A equals X plus Y plus Z. X is work. Y is play. Z is keep your mouth shut"<span class="quotes_author"> - <a href="http://en.wikipedia.org/wiki/Albert_Einstein">Albert Einstein</a></span>               </div>
+            <div id="footer-seals" class="hidden-xs">
+             <div class="authorize">
+                 <!-- (c) 2005, 2014. Authorize.Net is a registered trademark of CyberSource Corporation --> <div class="AuthorizeNetSeal"> <script type="text/javascript" language="javascript">var ANS_customer_id="1de2c247-f7e6-492b-99d8-fb648be79ff1";</script> <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script> <a href="http://www.authorize.net/" id="AuthorizeNetText" target="_blank">Online Payments</a> </div>
+             </div>
+             <div class="seals">
+                <img class="img-responsive" src="includes/templates/adafruit2013/images/seals_2x.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+	</div>
+	</div>
+
+ <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-2.newrelic.com","licenseKey":"308175db61","applicationID":"3835741","transactionName":"ZVxbZUFQWBdVW0BdWFwWekRARVkJG1BbWVJCWF5U","queueTime":0,"applicationTime":354,"ttGuid":"","agentToken":"","atts":"SRtYEwlKSxk=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script></body>
+</html>
